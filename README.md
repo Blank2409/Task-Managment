@@ -31,26 +31,13 @@ A full-stack task management application built with **Spring Boot** (backend) an
 ## Architecture
 Frontend (Vercel)
 │
-└─ Gateway Service (Railway)
-│
-├─ User Service (Railway + MySQL)
-├─ Task Service (Railway + MySQL)
-└─ Submission Service (Railway + MySQL)
+└─ Gateway Service (Railway)                                                                        
+│                                                                                                                          
+├─ User Service (Railway + MySQL)                                                                                       
+├─ Task Service (Railway + MySQL)                                                                 
+└─ Submission Service (Railway + MySQL)                                                                                         
 
 
----
-
-## Getting Started
-### Prerequisites
-- Java 17
-- Node.js 16+
-- MySQL
-
-### Backend Setup
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/task-management-system.git
-   
 ---
 
 ## Getting Started
