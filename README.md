@@ -10,8 +10,6 @@ A full-stack task management application built with **Spring Boot** (backend) an
 - **Submission Handling**: Submit and review task submissions.
 - **Microservices Architecture**: Built with Spring Boot microservices and a centralized Gateway.
 - **Frontend**: Responsive React app hosted on Vercel.
-- **Backend**: Spring Boot microservices deployed on Railway.
-
 ---
 
 ## Technologies Used
@@ -19,7 +17,6 @@ A full-stack task management application built with **Spring Boot** (backend) an
 - **Spring Boot**: Microservices framework.
 - **Spring Cloud Gateway**: API Gateway for routing requests.
 - **MySQL**: Database for each microservice.
-- **Railway**: Deployment platform for backend services.
 
 ### Frontend
 - **React**: Frontend library for building user interfaces.
@@ -31,7 +28,7 @@ A full-stack task management application built with **Spring Boot** (backend) an
 ## Architecture
 Frontend (Vercel)
 │
-└─ Gateway Service (Railway)                                                                        
+└─ Gateway Service (Railway)                                                                                                               
 │                                                                                                                          
 ├─ User Service (Railway + MySQL)                                                                                       
 ├─ Task Service (Railway + MySQL)                                                                 
